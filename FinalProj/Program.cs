@@ -16,7 +16,7 @@ Random gen = new Random();
 Mining min = new Mining();
 Shitems store = new Shitems();
 
-    min.pick = store.shims[0].wep;
+min.pick = store.shims[0].wep;
 while (!Raylib.WindowShouldClose())
 {
     /*
